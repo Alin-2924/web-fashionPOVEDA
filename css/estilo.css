@@ -1,0 +1,14 @@
+.container{
+	margin: 0 auto;
+	width: 930px;
+	border:solid 1px #FFF;
+}
+img{
+	height: auto;
+	max-width: 100%;
+}
+@media only screen and (max-width: 380px){
+	.container, .carousel-caption {
+		width: 100%;
+	}
+}
